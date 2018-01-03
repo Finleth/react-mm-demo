@@ -1,0 +1,20 @@
+.card {
+    position: relative;
+    width: 150px;
+    display: inline-block;
+    transform-style: preserve-3d;
+    transition: .25s;
+    padding: 15px;
+}
+
+.front, .back {
+    position: absolute;
+}
+
+.front {
+    transform: rotateY(180deg);
+}
+
+.front img, .back img {
+    width: 100%;
+}
