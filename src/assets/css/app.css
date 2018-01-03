@@ -1,3 +1,8 @@
 .app > h1 {
     text-align: center;
 }
+
+.game-container {
+    width: 100vw;
+    text-align: center;
+}
